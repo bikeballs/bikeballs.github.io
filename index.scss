@@ -90,7 +90,13 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 5em;
         letter-spacing: -5px;
         line-height: 96pt;
-        color:rgba(255,255,255,1);
+    }
+
+    .part1 {
+        color:rgba(255,255,255,.5);
+    }
+    .part2 {
+        color:rgba(255,255,255,.9);
     }
 
     .coming-soon {

@@ -60,9 +60,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
     font-size: 5em;
     letter-spacing: -5px;
-    line-height: 96pt;
-    color: white; }
-  /* line 96, /Users/kodninja/Dropbox/bikeballs/index.scss */
+    line-height: 96pt; }
+  /* line 95, /Users/kodninja/Dropbox/bikeballs/index.scss */
+  #logo .part1 {
+    color: rgba(255, 255, 255, 0.5); }
+  /* line 98, /Users/kodninja/Dropbox/bikeballs/index.scss */
+  #logo .part2 {
+    color: rgba(255, 255, 255, 0.9); }
+  /* line 102, /Users/kodninja/Dropbox/bikeballs/index.scss */
   #logo .coming-soon {
     display: block;
     font-size: 36pt;
