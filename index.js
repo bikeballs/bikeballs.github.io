@@ -3,5 +3,8 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-85903638-1', 'auto');
-ga('send', 'pageview');
+if (window.location.host === 'bikeballs.se') {
+    ga('create', 'UA-85903638-1', 'auto');
+    ga('send', 'pageview');
+}
+
