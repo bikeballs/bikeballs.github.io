@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2"); }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2"); }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2"); }
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
+
+/* line 50, /Users/kodninja/Dropbox/bikeballs/index.scss */
+html, body {
+  font-family: "San Francisco", "Helvetica Neue", arial;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+/* line 59, /Users/kodninja/Dropbox/bikeballs/index.scss */
+main {
+  width: 100%;
+  height: 100%; }
+
+/* line 64, /Users/kodninja/Dropbox/bikeballs/index.scss */
+#first {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 73, /Users/kodninja/Dropbox/bikeballs/index.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+/* line 78, /Users/kodninja/Dropbox/bikeballs/index.scss */
+#logo {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -48pt;
+  text-align: center; }
+  /* line 88, /Users/kodninja/Dropbox/bikeballs/index.scss */
+  #logo .part1,
+  #logo .part2 {
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: -5px;
+    line-height: 96pt;
+    color: white; }
+  /* line 96, /Users/kodninja/Dropbox/bikeballs/index.scss */
+  #logo .coming-soon {
+    display: block;
+    font-size: 36pt;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 100; }
+
+/*# sourceMappingURL=index.css.map */
